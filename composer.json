@@ -1,7 +1,13 @@
 {
     "name": "alloy/adamantine",
-    "description": "Alloy Magnetic's Drupal 9 admin theme",
+    "type": "drupal-theme",
+    "description": "Alloy Magnetic's Drupal 9 starter theme",
+    "keywords": [
+        "Drupal"
+    ],
+    "license": "proprietary",
+    "homepage": "https://code.kilpho.st/alloy/adamantine",
     "minimum-stability": "dev",
-    "type": "drupal-theme"
+    "support": {},
+    "require": {}
 }
-
