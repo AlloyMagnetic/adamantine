@@ -1,0 +1,9 @@
+admin-styles:
+  css:
+    theme:
+      css/style.css: {}
+  js:
+    js/better-dialogs.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once

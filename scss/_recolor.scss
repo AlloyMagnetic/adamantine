@@ -1,0 +1,102 @@
+.layout-node-form .layout-region__content {
+  background-color: #FFF;
+}
+
+.path-node-form {
+  background-color: #f3f4f9;
+  .page-wrapper {
+    background-color: #f3f4f9;
+  }
+  .form-actions {
+    .dropbutton__toggle {
+      color: #FFF;
+      background-color: #003cc5;
+      &:before {
+        background: url("data:image/svg+xml,%3csvg width='14' height='9' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M.238 1.938L1.647.517 7 5.819 12.354.517l1.408 1.421L7 8.636z' fill='%23FFFFFF'/%3e%3c/svg%3e") no-repeat center;
+      }
+    }
+  }
+}
+
+.form-element,
+div.autocomplete-deluxe-container {
+  border: 1px solid $input-border-color;
+}
+
+.cke.cke_chrome {
+  border-color: $input-border-color !important;
+}
+
+.ief-entity-table th {
+  color: #62757F;
+  border-bottom: 1px solid #000a12;
+  background-color: transparent;
+}
+
+.claro-details[open]>.claro-details__summary--accordion,
+.claro-details[open]>.claro-details__summary--accordion-item,
+.claro-details[open]>.claro-details__summary--vertical-tabs-item,
+.claro-details,
+.fieldset {
+  box-shadow: none;
+}
+
+.ief-entity-operations {
+  .button {
+    box-shadow: none;
+    color: #000a12;
+    background-color: #fff;
+    border: 1px solid #000a12 !important;
+    &:hover {
+      background-color: #000a12;
+      color: #FFF;
+    }
+    &[value="Remove"] {
+      color: #d31d1d;
+      border-color: #bd1a1a !important;
+      &:hover {
+        background-color: #d31d1d;
+        color: #FFF;
+      }
+    }
+  }
+}
+
+.button,
+.button:not(:focus) {
+  box-shadow: none;
+}
+
+.views-exposed-form.views-exposed-form {
+  box-shadow: none;
+}
+
+.field--type-airdate {
+  border: 1px solid #dedfe4;
+  tr:last-child {
+    border-bottom: none;
+  }
+  .field-multiple-table {
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+  .form-item--multiple {
+    margin: 0;
+  }
+  .form-actions {
+    padding-left: 51px;
+    padding-right: 12px;
+    margin-top: 0;
+  }
+}
+
+.dropbutton__item:first-of-type > .button.button--primary {
+  color: #FFF;
+  background-color: #003cc5;
+}
+
+.views-table {
+  a {
+    text-decoration: none;
+  }
+}

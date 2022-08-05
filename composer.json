@@ -1,0 +1,7 @@
+{
+    "name": "alloy/adamantine",
+    "description": "Alloy Magnetic's Drupal 9 admin theme",
+    "minimum-stability": "dev",
+    "type": "drupal-theme"
+}
+

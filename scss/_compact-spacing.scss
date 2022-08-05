@@ -1,0 +1,217 @@
+.button,
+.action-link {
+  padding: 9px 18px;
+  font-size: 16px;
+  line-height: 1.33333;
+}
+
+.is-horizontal {
+  .tabs__tab {
+    @include tablet {
+      padding-left: 12px;
+      padding-right: 12px;
+    }
+    &:first-child {
+      @include tablet {
+        padding-left: 0;
+      }
+    }
+  }
+  .tabs__link {
+    @include tablet {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      font-weight: 400;
+      &:hover {
+        background-color: transparent !important;
+      }
+      &:not(.is-active) {
+        color: #000a12;
+      }
+    }
+  }
+}
+
+.form-element,
+input {
+  padding: 6px 12px;
+  min-height: 0;
+}
+
+div.autocomplete-deluxe-container {
+  padding: 4px 12px;
+  padding-top: 7px;
+  padding-right: 40px;
+}
+
+div.autocomplete-deluxe-container div.autocomplete-deluxe-throbber {
+  top: 9px;
+}
+
+.autocomplete-deluxe-item {
+  padding: 4px 30px 4px 10px;
+}
+
+.ui-autocomplete-input {
+  padding-right: 40px;
+}
+
+.autocomplete-deluxe-item-delete {
+  top: 2.75em;
+}
+
+.claro-details__wrapper {
+  @include tablet {
+    margin: 0 1rem;
+  }
+}
+
+.field--type-entity-reference-revisions,
+.field--type-entity-reference {
+  @include tablet {
+    margin: 0;
+    .claro-details__wrapper {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .container-inline {
+      font-size: 0;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      div {
+        vertical-align: middle;
+      }
+  
+      select {
+        margin-right: 12px;
+      }
+  
+      .button {
+        font-size: 14px;
+        vertical-align: middle;
+      }
+    }
+    .ief-entity-table {
+      margin-bottom: 0;
+    }
+  }
+  .field--type-entity-reference-revisions,
+  .field--type-entity-reference {
+    .fieldset__wrapper {
+      @include tablet {
+        margin: 0;
+      }
+    }
+    .ief-cardinality-count {
+      padding: 0.75rem 1rem;
+    }
+    .ief-entity-table {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.media-library-widget > .fieldset__wrapper {
+  margin-left: 24px !important;
+  margin-right: 24px !important;
+  margin-bottom: 24px !important;
+}
+
+.ief-entity-operations {
+  .button {
+    padding: 3px 8px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 2px;
+    margin: 4px;
+  }
+  &.form-wrapper {
+    margin: -4px;
+  }
+}
+
+.ief-tabledrag-handle,
+.tabledrag-cell-content__item {
+  padding: 0;
+}
+
+.ief-tabledrag-handle {
+  padding-left: 1rem;
+}
+
+.ief-entity-table th {
+  text-transform: uppercase;
+  font-size: 11px;
+  padding-bottom: 13px;
+  line-height: 1.5;
+  height: auto;
+}
+
+.tabledrag-toggle-weight-wrapper {
+  position: absolute;
+  visibility: hidden;
+}
+
+.form-element--type-select.form-element {
+  padding-right: 40px;
+}
+
+.claro-details__summary--accordion,
+.claro-details__summary--accordion-item,
+.claro-details__summary--vertical-tabs-item {
+  padding: 0.75rem 2.25rem 0.75rem 1rem;
+  line-height: 1.5;
+}
+
+.claro-details__summary {
+  padding: 0.75rem 2.25rem 0.75rem 1rem;
+  &:before {
+    left: auto;
+    right: 0.75rem;
+  }
+}
+
+.claro-details__wrapper--accordion,
+.claro-details__wrapper--accordion-item,
+.claro-details__wrapper--vertical-tabs-item {
+  background-color: transparent;
+  border-top: 0;
+}
+
+.claro-details__content--accordion,
+.claro-details__content--accordion-item,
+.claro-details__content--vertical-tabs-item {
+  margin-top: 0;
+}
+
+.claro-details__summary-summary {
+  font-size: 12px;
+  text-transform: none;
+}
+
+.claro-details__wrapper--accordion-item {
+  margin: 0;
+}
+.layout-region--node-secondary {
+  .claro-details__summary {
+    text-transform: uppercase;
+    color: #888C90;
+  }
+  .claro-details__summary-summary {
+    display: none;
+  }
+  .claro-details[open]>.claro-details__summary {
+    border-bottom: 0;
+    color: #000a12;
+    text-transform: uppercase;
+
+    &:after {
+      display: none;
+    }
+  }
+  .form-item {
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}
