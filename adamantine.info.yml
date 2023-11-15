@@ -3,7 +3,7 @@ type: theme
 description: 'Overrides the Claro theme for Alloy projects.'
 base theme: claro
 screenshot: screenshot.png
-core_version_requirement: ^8.8 || ^9
+core_version_requirement: ^8.8 || ^9 || ^10
 
 libraries:
   - adamantine/admin-styles

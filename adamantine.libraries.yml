@@ -6,4 +6,3 @@ admin-styles:
     js/better-dialogs.js: {}
   dependencies:
     - core/jquery
-    - core/jquery.once
