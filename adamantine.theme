@@ -55,8 +55,6 @@ function adamantine_form_node_form_alter(&$form, FormStateInterface $form_state)
 }
 
 function adamantine_form_assembly_form_alter(&$form, FormStateInterface $form_state) {
-  $form['visual_styles']['widget']['#type'] = 'select2';
-  $form['field_spacing']['widget']['#type'] = 'select2';
   unset($form['visual_styles']['widget']['#options']['_none']);
   unset($form['field_spacing']['widget']['#options']['_none']);
 }
