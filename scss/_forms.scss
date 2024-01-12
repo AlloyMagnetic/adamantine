@@ -1,4 +1,7 @@
 .select2-container {
   width: auto !important;
   max-width: 100%;
+  ul {
+    margin: 0;
+  }
 }
