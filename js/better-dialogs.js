@@ -1,9 +1,7 @@
 (function ($, Drupal) {
   Drupal.behaviors.static_overlay = {
     attach: function (context) {
-      $(context)
-        .find(window)
-        .once('adamantine-static-overlay')
+      $(once('adamantine-static-overlay', window))
         .on({
           'dialog:aftercreate': function (event, dialog, $element, settings) {
             if (settings.modal) {

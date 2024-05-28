@@ -9,3 +9,4 @@ admin-styles:
     js/forms.js: {}
   dependencies:
     - core/jquery
+    - core/once
