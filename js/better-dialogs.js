@@ -1,8 +1,8 @@
 (function ($, Drupal) {
   Drupal.behaviors.static_overlay = {
     attach: function (context) {
-      $(once('adamantine-static-overlay', window))
-        .on({
+      if (!once('adamantine-static-overlay', 'html').length) {
+        $(window).on({
           'dialog:aftercreate': function (event, dialog, $element, settings) {
             if (settings.modal) {
               $('body').addClass('adamantine-no-overflow');
@@ -14,6 +14,8 @@
             }
           }
         });
+      }
     }
   };
 })(jQuery, Drupal);
+
