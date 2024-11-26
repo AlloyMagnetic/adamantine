@@ -1,4 +1,4 @@
-.layout-region--node-main .layout-region__content {
+.layout-region--main .layout-region__content {
   padding: 1rem 1.5rem 1.5rem;
   @include desktop {
     max-width: none;
@@ -6,9 +6,9 @@
   }
 }
 
-.layout-region--node-main,
-.layout-region--node-secondary,
-.layout-region--node-footer {
+.layout-region--main,
+.layout-region--secondary,
+.layout-region--footer {
   @include desktop {
     padding: 0;
     width: 100%;
@@ -18,19 +18,19 @@
   }
 }
 
-.layout-region--node-main {
+.layout-region--main {
   @include desktop {
     grid-row: 1 / span 2;
   }
 }
 
-.layout-node-form .layout-region--node-secondary {
+.node-form .layout-region--secondary {
   @include desktop {
     margin-right: 24px;
   }
 }
 
-.layout-node-form .layout-region--node-footer {
+.node-form .layout-region--footer {
   @include desktop {
     grid-column: 2 / span 1;
     grid-row: 1 / span 1;
